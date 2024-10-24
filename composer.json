@@ -1,0 +1,15 @@
+{
+	"name": "alesinicio/mutex",
+	"description": "Simple PHP Mutex implementation",
+	"version": "1.0.0",
+	"autoload": {
+		"psr-4": {
+			"Alesinicio\\Mutex\\": "src"
+		}
+	},
+	"require": {
+		"php": ">=8.1",
+		"psr/simple-cache": "1|2|3",
+		"ext-posix": "*"
+	}
+  }
